@@ -1,0 +1,63 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #93c5fd;
+  height: 100vh;
+  background-size: cover;
+}
+
+.country-card {
+  background-color: #f8fafc;
+  padding: 28px;
+  border-radius: 15px;
+  width: 500px;
+  margin: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .country-card {
+    width: 500px;
+  }
+}
+
+.heading {
+  font-family: Roboto;
+  color: #1e293b;
+  font-size: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 30px;
+  }
+}
+
+.select-container {
+  display: flex;
+  align-items: center;
+}
+
+.select {
+  padding: 8px;
+  border-color: #cbd2d9;
+  border-radius: 5px;
+  margin-right: 5px;
+  font-family: Roboto;
+  color: #000000;
+  font-weight: bold;
+}
+
+.is-capital {
+  font-family: Roboto;
+  color: #323f4b;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.country {
+  font-family: Roboto;
+  color: #1e293b;
+  font-size: 18px;
+  font-weight: bold;
+}
